@@ -1,0 +1,11 @@
+project_repo: git@github.com:barthaakman/factory.git
+project_title: Factory
+project_name: factory 
+sites_dir:  /usr/local/sites
+virtualenvs_dir: /home/django/virtualenvs/
+nginx_root_dir:  /etc/nginx/sites-available
+gunicorn:  127.0.0.1:2015
+deploy_user: bh 
+keystore_path: factory_keystore 
+vcs: git
+vcs_host: github.com
